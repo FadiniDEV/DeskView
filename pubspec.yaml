@@ -1,0 +1,21 @@
+name: deskview_flutter
+description: >-
+  DeskView — Plataforma de Acesso Remoto Multi-Rede (LAN, P2P STUN/ICE e Relay Criptografado)
+  e Controle Universal de Periféricos (Mouse, Teclado, Gamepad e Joystick) para Windows e Android.
+publish_to: 'none'
+version: 3.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
